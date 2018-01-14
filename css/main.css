@@ -1,3 +1,19 @@
+section + section {
+  margin-left: .5rem;
+}
+
 .vh-100 {
   height: 100vh;
+}
+
+.bg-brown {
+  background-color: #734747
+}
+
+.h-line {
+  height: 2px
+}
+
+.w-15px {
+  width: 15px
 }
