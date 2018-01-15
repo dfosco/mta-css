@@ -9,9 +9,11 @@
         <link rel="stylesheet" href="https://unpkg.com/tachyons@4.9.0/css/tachyons.min.css"/>
         <link rel="stylesheet" href="css/main.css">
     </head>
-    <body>
-        <main class="flex justify-start items-start vh-100 bg-light-gray pa4">
-          
+    <body class="vh-100 bg-white pa3 ph5-ns pv4-ns">
+        <header class="vh-10 justify-between mb5">
+          <h1 class="black helvetica fw6 f2 dib">New York City Subway</h1>
+        </header>
+        <main class="vh-80 flex justify-start items-start">
           <section class="bg-near-black pa2">
             <div class="h-line nl2 nr2 bg-white"></div>
             <span class="dib white helvetica f2 fw5 mb1">Flushing Av</span>
@@ -29,6 +31,10 @@
             </div>
           </section>
         </main>
+        <footer class="vh-10 lh-copy helvetica f6 fw5 flex flex-row-ns flex-column justify-between">
+          <p class="db ma0 w-100 w-50-ns mb3 mb0-ns">Inspired by <a class="link no-underline blue" target="_blank" rel="noopener" href="https://www.kickstarter.com/projects/nycsubway/the-new-york-city-subway-468-stations-1-poster">The New York City Subway</a> poster <br class="dn db-ns"/> and the <a class="link no-underline blue" target="_blank" rel="noopener" href="https://standardsmanual.com/products/nyctacompactedition">NYC Transit Authority Graphics Standards Manual</a></p>
+          <p class="db ma0 w-100 w-50-ns mb3 mb0-ns tl tr-ns">A thing by <a href="https://twitter.com/dfosco" target="_blank" rel="noopener" class="link no-underline blue">@dfosco</a></p>
+        </footer>
         <script src="js/main.js"></script>
     </body>
 </html>

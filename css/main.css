@@ -6,6 +6,18 @@ section + section {
   height: 100vh;
 }
 
+.vh-80 {
+  height: 80vh;
+}
+
+.vh-20 {
+  height: 20vh;
+}
+
+.vh-10 {
+  height: 10vh;
+}
+
 .bg-brown {
   background-color: #734747
 }
