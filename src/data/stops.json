@@ -1,19 +1,19 @@
 [
   {
     "name": "1 Av",
-    "line": "L"
+    "line": ["L"]
   },
   {
     "name": "2 Av",
-    "line": "F"
+    "line": ["F"]
   },
   {
     "name": "3 Av",
-    "line": "L"
+    "line": ["L"]
   },
   {
     "name": "3 Av-138 St",
-    "line": "6"
+    "line": ["6"]
   },
   {
     "name": "3 Av-149 St",

@@ -7,7 +7,13 @@ export default function Station(props) {
       <div className="h-line nl2 nr2 bg-white"></div>
       <span className="dib white helvetica f2 fw5 mb1">{props.name}</span>
       <div className="w-100">
-        <span className="dib white helvetica bg-green br-pill pa2 h1 w1 tc lh-solid">{props.line}</span>
+        {
+          props.line.map(line => {
+            return (
+              <span className="dib white helvetica bg-green br-pill pa2 h1 w1 tc lh-solid">{line}</span>
+            )
+          })
+        }
       </div>
     </section>
   )
