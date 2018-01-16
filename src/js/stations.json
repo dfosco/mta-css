@@ -1,26 +1,28 @@
-[
-  {
-    "Station": "1 Av",
-    "Line": "L"
-  },
-  {
-    "Station": "2 Av",
-    "Line": "F"
-  },
-  {
-    "Station": "3 Av",
-    "Line": "L"
-  },
-  {
-    "Station": "3 Av-138 St",
-    "Line": "6"
-  },
-  {
-    "Station": "3 Av-149 St",
-    "Line": ["2", "5"]
-  },
-  {
-    "Station": "4 Av-9 St",
-    "Line": ["F", "G", "R"]
-  }
-]
+{
+  "Stations": [
+    {
+      "Stop": "1 Av",
+      "Line": "L"
+    },
+    {
+      "Stop": "2 Av",
+      "Line": "F"
+    },
+    {
+      "Stop": "3 Av",
+      "Line": "L"
+    },
+    {
+      "Stop": "3 Av-138 St",
+      "Line": "6"
+    },
+    {
+      "Stop": "3 Av-149 St",
+      "Line": ["2", "5"]
+    },
+    {
+      "Stop": "4 Av-9 St",
+      "Line": ["F", "G", "R"]
+    }
+  ]
+}
