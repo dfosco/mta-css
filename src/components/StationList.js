@@ -1,22 +1,26 @@
-import React from 'react'
+import React, { Component } from 'react'
 import Station from './Station'
 import data from '../data/stops.json'
 
-export default function StationList(props) {
+class StationList extends Component {
 
-  const arrayToObject = (array, keyField) =>
-     array.reduce((obj, item) => {
-       obj[item[keyField]] = item
-       return obj
-     }, {})
+  render(props) {
+    const arrayToObject = (array, keyField) =>
+       array.reduce((obj, item) => {
+         obj[item[keyField]] = item
+         return obj
+       }, {})
 
-  const metro = arrayToObject(data, name)
+    const metro = arrayToObject(data, "name")
 
-  return(
+    return (
       data.map(metro => {
-            return (
-              <Station key={`${metro.line}_${metro.name}`} name={metro.name} line={metro.line} />
-            )
-          })
-  )
+          return (
+            <Station key={`${metro.line}_${metro.name}`} name={metro.name} line={metro.line} />
+          )
+      })
+    );
+  }
 }
+
+export default StationList
