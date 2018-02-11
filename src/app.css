@@ -1,21 +1,9 @@
-section + section {
-  margin-left: .5rem;
+.stationLine + .stationLine {
+  margin-left: 0.15rem;
 }
 
-.vh-100 {
-  height: 100vh;
-}
-
-.vh-80 {
-  height: 80vh;
-}
-
-.vh-20 {
-  height: 20vh;
-}
-
-.vh-10 {
-  height: 10vh;
+.grow-1 {
+  flex-grow: 1
 }
 
 .bg-brown {
