@@ -10,7 +10,7 @@ export default function Station(props) {
         {
           props.line.map(line => {
             return (
-              <span className="dib white helvetica bg-green br-pill pa2 h1 w1 tc lh-solid">{line}</span>
+              <span key={line} className="dib white helvetica bg-green br-pill pa2 h1 w1 tc lh-solid">{line}</span>
             )
           })
         }
