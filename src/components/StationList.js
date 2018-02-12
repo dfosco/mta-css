@@ -1,26 +1,13 @@
 import React, { Component } from 'react'
 import Station from './Station'
 import data from '../data/stops.json'
+import arrayToObject from '../utils/arrayToObject.js'
+import compare from '../utils/sortData.js'
 
 class StationList extends Component {
 
   render(props) {
-    function compare(a,b) {
-      if (a.name < b.name)
-        return -1;
-      if (a.name > b.name)
-        return 1;
-      return 0;
-    }
-
     let sortedData = data.sort(compare);
-
-    const arrayToObject = (array, keyField) =>
-       array.reduce((obj, item) => {
-         obj[item[keyField]] = item
-         return obj
-       }, {})
-
     const metro = arrayToObject(sortedData, "name")
 
     return (
