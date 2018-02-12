@@ -1,5 +1,6 @@
 import React from 'react'
 import data from '../data/stops.json'
+import StationLine from './StationLine'
 
 export default function Station(props) {
   return (
@@ -10,7 +11,7 @@ export default function Station(props) {
         {
           props.line.map(line => {
             return (
-              <span key={line} className="stationLine dib white helvetica bg-green br-pill pa2 h1 w1 tc lh-solid">{line}</span>
+              <StationLine color={'#EC2C2E'} letter={'#ffffff'} key={line}>{line}</StationLine>
             )
           })
         }
