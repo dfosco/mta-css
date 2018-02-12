@@ -1,19 +1,8 @@
 import React from 'react'
 import data from '../data/stops.json'
-import chips from '../data/lines.json'
 import StationLine from './StationLine'
 
 export default function Station(props) {
-  // chips.map(chip => {
-  //   return (
-  //     <StationLine color={'#EC2C2E'} letter={'#ffffff'} key={line}>{line}</StationLine>
-  //   )
-  // })
-
-  // chips.forEach(function(chip) {
-  const stationChip = chips.name
-  console.log(chips.name);
-  // });
 
   return (
     <section className="bg-near-black pa2 grow-1 basis-content ma1">
@@ -23,7 +12,7 @@ export default function Station(props) {
         {
           props.line.map(line => {
             return (
-              <StationLine color={'#EC2C2E'} letter={'#ffffff'} key={line}>{line}</StationLine>
+              <StationLine line={line} color={'#EC2C2E'} letter={'#ffffff'} key={line}>{line}</StationLine>
             )
           })
         }
