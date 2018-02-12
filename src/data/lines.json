@@ -31,57 +31,57 @@
   },
   {
     "line": "7",
-    "color": "#B92BAA",
+    "color": "#da0cc4",
     "letter": "#ffffff"
   },
   {
     "line": "A",
-    "color": "#314FAB",
+    "color": "#064494",
     "letter": "#ffffff"
   },
   {
     "line": "C",
-    "color": "#314FAB",
+    "color": "#064494",
     "letter": "#ffffff"
   },
   {
     "line": "E",
-    "color": "#314FAB",
+    "color": "#064494",
     "letter": "#ffffff"
   },
   {
     "line": "B",
-    "color": "#F45F1F",
+    "color": "#ff6217",
     "letter": "#ffffff"
   },
   {
     "line": "D",
-    "color": "#F45F1F",
+    "color": "#ff6217",
     "letter": "#ffffff"
   },
   {
     "line": "F",
-    "color": "#F45F1F",
+    "color": "#ff6217",
     "letter": "#ffffff"
   },
   {
     "line": "M",
-    "color": "#F45F1F",
+    "color": "#ff6217",
     "letter": "#ffffff"
   },
   {
     "line": "G",
-    "color": "#6ABF4E",
+    "color": "#67d044",
     "letter": "#ffffff"
   },
   {
     "line": "J",
-    "color": "#986536",
+    "color": "#b35b0a",
     "letter": "#ffffff"
   },
   {
     "line": "Z",
-    "color": "#986536",
+    "color": "#b35b0a",
     "letter": "#ffffff"
   },
   {
@@ -96,22 +96,22 @@
   },
   {
     "line": "N",
-    "color": "#FACC2C",
+    "color": "#ffe52e",
     "letter": "#000000"
   },
   {
     "line": "Q",
-    "color": "#FACC2C",
+    "color": "#ffe52e",
     "letter": "#000000"
   },
   {
     "line": "R",
-    "color": "#FACC2C",
+    "color": "#ffe52e",
     "letter": "#000000"
   },
   {
     "line": "W",
-    "color": "#FACC2C",
+    "color": "#ffe52e",
     "letter": "#000000"
   }
 ]
