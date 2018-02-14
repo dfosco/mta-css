@@ -12,7 +12,7 @@ export default function Station(props) {
         {
           props.line.map(line => {
             return (
-              <StationLine line={line} color={'#EC2C2E'} letter={'#ffffff'} key={line}>{line}</StationLine>
+              <StationLine line={line} key={line}>{line}</StationLine>
             )
           })
         }
