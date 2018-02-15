@@ -11,6 +11,8 @@ export default function StationLine(props) {
     isNum = "8"
   } else if (props.children.match(/^(1|4|F|L|A|E|R|Z|S)$/)) {
     isNum = "7.5"
+  } else if (props.children.match(/^(R)$/)) {
+    isNum = "7"
   } else if (props.children.match(/^(N)$/)) {
     isNum = "6.5"
   } else if (props.children.match(/^(Q)$/)) {
