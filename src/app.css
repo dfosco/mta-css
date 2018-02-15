@@ -1,3 +1,7 @@
+.fw4-plus {
+  font-weight: 450
+}
+
 .stationLine + .stationLine {
   margin-left: 0.15rem;
 }

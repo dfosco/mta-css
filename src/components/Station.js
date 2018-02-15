@@ -5,9 +5,9 @@ import StationLine from './StationLine'
 export default function Station(props) {
 
   return (
-    <section className="bg-near-black pa2 grow-1 basis-content ma1">
+    <article className="bg-near-black pa2 grow-1 basis-content ma1">
       <div className="h-line nl2 nr2 bg-white"></div>
-      <span className="dib white helvetica f2 fw5 mb1">{props.name}</span>
+      <span className="dib white helvetica f2 fw4-plus mb1">{props.name}</span>
       <div className="w-100">
         {
           props.line.map(line => {
@@ -17,6 +17,6 @@ export default function Station(props) {
           })
         }
       </div>
-    </section>
+    </article>
   )
 }
