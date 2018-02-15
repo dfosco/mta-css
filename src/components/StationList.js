@@ -9,7 +9,6 @@ class StationList extends Component {
   render(props) {
     let sortedData = data.sort(compare);
     const metro = arrayToObject(sortedData, "name")
-    // console.log(metro)
 
     return (
       data.map(metro => {
