@@ -140,7 +140,7 @@
 	"name": "149 St - Grand Concourse",
 	"line": ["4"]
 }, {
-	"name": "161st St - Yankee Stadium",
+	"name": "161 St - Yankee Stadium",
 	"line": ["4"]
 }, {
 	"name": "Lexington Ave - 59 St",
@@ -158,7 +158,7 @@
 	"name": "St Lawrence Ave",
 	"line": ["6"]
 }, {
-	"name": "Woodside - 61st St",
+	"name": "Woodside - 61 St",
 	"line": ["7"]
 }, {
 	"name": "Far Rockaway - Mott Ave",
@@ -251,7 +251,7 @@
 	"name": "W 4 St - Washington Sq (Lower)",
 	"line": ["B", "D", "F", "M"]
 }, {
-	"name": "51st St",
+	"name": "51 St",
 	"line": ["4", "6"]
 }, {
 	"name": "86 St",
@@ -431,7 +431,7 @@
 	"name": "Herald Sq - 34 St",
 	"line": ["N", "Q", "R", "W"]
 }, {
-	"name": "1st Ave",
+	"name": "1 Ave",
 	"line": ["L"]
 }, {
 	"name": "Times Sq - 42 St",
@@ -455,7 +455,7 @@
 	"name": "Long Island City - Court Sq",
 	"line": ["G"]
 }, {
-	"name": "21st St",
+	"name": "21 St",
 	"line": ["G"]
 }, {
 	"name": "39 Ave",
@@ -482,7 +482,7 @@
 	"name": "72 St",
 	"line": ["1", "2", "3"]
 }, {
-	"name": "81st St",
+	"name": "81 St",
 	"line": ["A", "B", "C"]
 }, {
 	"name": "75 Ave",
@@ -527,10 +527,10 @@
 	"name": "168 St",
 	"line": ["1"]
 }, {
-	"name": "181st St",
+	"name": "181 St",
 	"line": ["1"]
 }, {
-	"name": "191st St",
+	"name": "191 St",
 	"line": ["1"]
 }, {
 	"name": "175 St",
@@ -623,7 +623,7 @@
 	"name": "111 St",
 	"line": ["J"]
 }, {
-	"name": "121st St",
+	"name": "121 St",
 	"line": ["J", "Z"]
 }, {
 	"name": "Halsey St",
@@ -728,7 +728,7 @@
 	"name": "Briarwood - Van Wyck Blvd",
 	"line": ["E", "F"]
 }, {
-	"name": "Forest Hills - 71st Av",
+	"name": "Forest Hills - 71 Av",
 	"line": ["E", "F", "M", "R"]
 }, {
 	"name": "Sutphin Blvd",
@@ -794,7 +794,7 @@
 	"name": "Marble Hill - 225 St",
 	"line": ["1"]
 }, {
-	"name": "231st St",
+	"name": "231 St",
 	"line": ["1"]
 }, {
 	"name": "215 St",
@@ -833,7 +833,7 @@
 	"name": "Jamaica - 179 St",
 	"line": ["F"]
 }, {
-	"name": "Wakefield - 241st St",
+	"name": "Wakefield - 241 St",
 	"line": ["2"]
 }, {
 	"name": "Botanic Garden",
@@ -884,7 +884,7 @@
 	"name": "155 St",
 	"line": ["B", "D"]
 }, {
-	"name": "161st St - Yankee Stadium",
+	"name": "161 St - Yankee Stadium",
 	"line": ["B", "D"]
 }, {
 	"name": "Utica Ave",
@@ -953,7 +953,7 @@
 	"name": "79 St",
 	"line": ["D"]
 }, {
-	"name": "71st St",
+	"name": "71 St",
 	"line": ["D"]
 }, {
 	"name": "20 Ave",
@@ -1031,7 +1031,7 @@
 	"name": "Neck Rd",
 	"line": ["Q"]
 }, {
-	"name": "21st St - Queensbridge",
+	"name": "21 St - Queensbridge",
 	"line": ["F"]
 }, {
 	"name": "50 St",
@@ -1181,7 +1181,7 @@
 	"name": "Spring St",
 	"line": ["A", "C", "E"]
 }, {
-	"name": "181st St",
+	"name": "181 St",
 	"line": ["A"]
 }, {
 	"name": "190 St",
