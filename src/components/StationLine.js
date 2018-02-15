@@ -30,7 +30,7 @@ export default function StationLine(props) {
           <React.Fragment>
             <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg">
               <g fill="none" fillRule="evenodd"><circle fill={chips.color} cx="13" cy="13" r="13"/>
-                <text fontFamily="Helvetica Neue" fontSize="18" fontWeight="400" fill={chips.letter}>
+                <text fontFamily="Helvetica" fontSize="18" fontWeight="400" fill={chips.letter}>
                   <tspan x={ isNum } y="19">{props.children}</tspan>
                 </text>
               </g>
