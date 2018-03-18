@@ -22,7 +22,7 @@ class App extends Component {
           <link rel="icon" type="image/png" sizes="16x16" href={favicon16} />
           <title>NYC Subway CSS</title>
         </Head>
-        <div className="flex flex-column justify-between bg-white pa3 ph5-ns pv4-ns">
+        <div className="flex flex-column justify-between bg-white pa3 ph5-l pv4-l">
             <header className="justify-between mb3">
               <div className="flex flex-wrap items-center">
                 <h1 className="black fw6 f2 dib mb0 mb3-l">
@@ -34,10 +34,10 @@ class App extends Component {
                   <StationLine large line="A">S</StationLine>
                 </div>
               </div>
-              <div className="mt3 mb2 lh-copy f6 fw5 flex flex-row-ns flex-column items-end justify-between">
-                <p className="db ma0 w-100 w-50-ns mb3 mb0-ns">Inspired by <a className="link no-underline blue" target="_blank" rel="noopener noreferrer" href="https://www.kickstarter.com/projects/nycsubway/the-new-york-city-subway-468-stations-1-poster">The New York City Subway</a> poster <br className="dn db-ns"/> and the <a className="link no-underline blue" target="_blank" rel="noopener" href="https://standardsmanual.com/products/nyctacompactedition">NYC Transit Authority Graphics Standards Manual</a>.</p>
-                <p className="db ma0 w-100 w-50-ns mb3 mb0-ns tl tr-ns">
-                  A thing by <a href="https://twitter.com/dfosco" target="_blank" rel="noopener noreferrer" className="link no-underline blue">@dfosco</a>, to all my friends in NYC.
+              <div className="mt3 mb0 lh-copy f6 fw5 flex flex-wrap flex-row-ns flex-column items-end justify-between">
+                <p className="db ma0 w-100 w-60-l mb3 mb0-l">Inspired by <a className="link no-underline blue" target="_blank" rel="noopener noreferrer" href="https://www.kickstarter.com/projects/nycsubway/the-new-york-city-subway-468-stations-1-poster">The New York City Subway</a> poster <br className="dn db-ns"/> and the <a className="link no-underline blue" target="_blank" rel="noopener" href="https://standardsmanual.com/products/nyctacompactedition">NYC Transit Authority Graphics Standards Manual</a>.</p>
+                <p className="db ma0 w-100 w-40-l mb0 tl tr-l">
+                  A love letter to the NYC transportation system, by <a href="https://twitter.com/dfosco" target="_blank" rel="noopener noreferrer" className="link no-underline blue">@dfosco</a>.
                 </p>
               </div>
             </header>
