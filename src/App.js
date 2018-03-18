@@ -15,12 +15,11 @@ class App extends Component {
         <Head>
           <meta charSet="UTF-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <meta property="og:image" content="path/to/image.jpg" />
-          
           <meta property="og:title" content="NYC Subway CSS" />
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="http://mta.surge.sh" />
           <meta property="og:description" content="A love letter to the NYC Subway in CSS" />
           <meta property="og:image" content={og_image} />
-          <meta property="og:url" content="http://mta.danielfos.co" />
           <meta name="twitter:card" content="summary_large_image" />
 
           <title>NYC Subway CSS</title>
