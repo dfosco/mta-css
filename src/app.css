@@ -25,3 +25,17 @@ body {
 .w-15px {
   width: 15px
 }
+
+/* @media screen and (min-width: 30em) { */
+  .scale-1-4 {
+    transform: scale(1.4)
+  }
+
+  .pl-6px {
+    padding-left: 6px;
+  }
+
+  .pt-6px {
+    padding-top: 6px;
+  }
+/* } */
