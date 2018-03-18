@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Head } from 'react-static'
 import StationList from './components/StationList'
 import StationLine from './components/StationLine'
+import og_image from "./img/og-image.png"
 import favicon32 from "./img/favicon-32x32.png"
 import favicon16 from "./img/favicon-16x16.png"
 import tachyons from 'tachyons'
@@ -14,13 +15,17 @@ class App extends Component {
         <Head>
           <meta charSet="UTF-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <meta property="og:title" content="NYC Subway CSS" />
-          <meta name="description" content="A love letter to the NYC Subway in CSS" />
           <meta property="og:image" content="path/to/image.jpg" />
+          
+          <meta property="og:title" content="NYC Subway CSS" />
+          <meta property="og:description" content="A love letter to the NYC Subway in CSS" />
+          <meta property="og:image" content={og_image} />
+          <meta property="og:url" content="http://mta.danielfos.co" />
+          <meta name="twitter:card" content="summary_large_image" />
 
+          <title>NYC Subway CSS</title>
           <link rel="icon" type="image/png" sizes="32x32" href={favicon32} />
           <link rel="icon" type="image/png" sizes="16x16" href={favicon16} />
-          <title>NYC Subway CSS</title>
         </Head>
         <div className="flex flex-column justify-between bg-white pa3 ph5-l pv4-l">
             <header className="justify-between mb3">
