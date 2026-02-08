@@ -1,3 +1,9 @@
-// Though this file is optional, there are SO MANY COOL THINGS you can do here.
-// Read the docs at https://github.com/nozzle/react-static/blob/master/README.md to learn more!
-export default {}
+export default {
+  siteRoot: 'https://dfosco.github.io/mta-css',
+  webpack: (config, { stage }) => {
+    if (stage === 'prod') {
+      config.output.publicPath = '/mta-css/'
+    }
+    return config
+  },
+}
