@@ -6,7 +6,8 @@
   "scripts": {
     "start": "react-static start",
     "build": "react-static build",
-    "serve": "serve dist -p 3000"
+    "serve": "serve dist -p 3000",
+    "fetch-data": "node scripts/fetch-stations.js"
   },
   "dependencies": {
     "axios": "^0.16.2",

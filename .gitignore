@@ -17,3 +17,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# GTFS temp data
+.gtfs-tmp
+
+# Yarn
+.yarn/install-state.gz

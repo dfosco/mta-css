@@ -1,0 +1,42 @@
+name: Refresh Station Data
+
+on:
+  schedule:
+    - cron: '0 0 1 * *' # First day of every month at midnight UTC
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  refresh-data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Fetch latest station data
+        run: npm run fetch-data
+
+      - name: Build site
+        run: npm run build
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git diff --quiet src/data/ || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit updated data
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/data/stops.json src/data/lines.json
+          git commit -m "chore: refresh MTA station data [automated]"
+          git push
